@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Edo";
+       src: url(edosz.ttf) format('truetype');
+}
+
+body {
+    color:gainsboro;
+    text-decoration:solid;
+    text-align:start;
+    font-family:Edo;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    line-height: normal;
+    background-image: url(imgs/EssenceofBackgroundImage.png);
+}
+
+hr {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+hgroup {
+    text-align: center;
+}
+
+nav 
+{
+    background-color: maroon;
+    line-height: 300%;
+    display: block;
+}
+
+nav li 
+{
+    display: inline;
+    padding-right: 125px;
+    padding-left: 125px;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color:gainsboro
+}
+
+nav a:visited
+{
+    color:gainsboro
+}
+
+div {
+  width: 300px;
+  border: 15px solid maroon;
+  padding: 50px;
+  margin: 20px;
+}
