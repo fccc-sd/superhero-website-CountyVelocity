@@ -54,8 +54,21 @@ nav a:visited
 }
 
 div {
-  width: 300px;
-  border: 15px solid maroon;
+  border: 15px solid transparent;
   padding: 50px;
   margin: 20px;
+}
+
+/* Float to the right on screens that are equal to or less than 768px wide */
+@media{
+  .fl-right {
+    float: right;
+  }
+}
+
+/* Float to the right on screens that are equal to or greater than 769px wide */
+@media{
+  .fl-left {
+    float: left;
+  }
 }
