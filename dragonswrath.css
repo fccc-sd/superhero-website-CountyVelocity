@@ -72,3 +72,7 @@ div {
     float: left;
   }
 }
+
+img {
+  padding: 20px; /* Adds 20px padding on all sides */
+}
