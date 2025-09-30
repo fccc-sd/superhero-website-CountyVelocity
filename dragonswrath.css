@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Edo";
+       src: url(edosz.ttf) format('truetype');
+}
+
+body {
+    color:gainsboro;
+    text-decoration:solid;
+    text-align:start;
+    font-family:Edo;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    line-height: normal;
+    background-image: url(imgs/EssenceofBackgroundImage.png);
+}
+
+hr {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+hgroup {
+    text-align: center;
+}
+
+nav 
+{
+    background-color: maroon;
+    line-height: 300%;
+    display: block;
+}
+
+nav li 
+{
+    display: inline;
+    padding-right: 150px;
+    padding-left: 150px;
+    border: gainsboro solid;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color:gainsboro
+}
+
+nav a:visited
+{
+    color:gainsboro
+}
+
+div {
+  border: 15px solid transparent;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* Float to the right on screens that are equal to or less than 768px wide */
+@media{
+  .fl-right {
+    float: right;
+  }
+}
+
+/* Float to the right on screens that are equal to or greater than 769px wide */
+@media{
+  .fl-left {
+    float: left;
+  }
+}
+
+img {
+  padding: 20px; /* Adds 20px padding on all sides */
+}
