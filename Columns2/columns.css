@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("columns.gif");
+    font-family:sans-serif;
+}
+
+h1
+{
+    text-align:center;
+    color:white;
+}
+
+#container
+{
+    width: 960px;
+    padding: 25px;
+    margin: 0 auto;
+    background-color:aliceblue;
+}
+
+header
+{
+    height: 100px;
+    width: 900px;
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+nav
+{
+    text-align:center;
+    width: 930px;
+    background-color:cornflowerblue;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+li
+{
+    padding-right: 40px;
+    display: inline;
+    list-style-type: none;
+}
+
+a:link
+{
+    color:white
+}
+
+a:visited
+{
+    color:white
+}
+
+aside
+{
+    width: 200px;
+    height: 400px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    float: left;
+    background-color: crimson;
+}
+
+section
+{
+    width: 700px;
+    height: 400px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    float: right;
+    background-color: darkturquoise;
+}
+
+footer
+{
+    width: 930px;
+    background-color: brown;
+    padding: 10px;
+    clear: both;
+}
