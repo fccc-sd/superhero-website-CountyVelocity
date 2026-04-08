@@ -1,56 +1,71 @@
 @font-face {
   font-family: "Edo";
-       src: url(edosz.ttf) format('truetype');
+     src: url(edosz.ttf) format('truetype');
 }
 
 body {
-    color:gainsboro;
-    text-decoration:solid;
-    text-align:start;
-    font-family:Edo;
-    font-weight: bold;
-    font-size: medium;
-    font-style: italic;
-    line-height: normal;
-    background-image: url(imgs/EssenceofBackgroundImage.png);
+  color:gainsboro;
+  text-decoration:solid;
+  text-align:start;
+  font-family:Edo;
+  font-weight: bold;
+  font-size: medium;
+  font-style: italic;
+  line-height: normal;
+  background-image: url(imgs/EssenceofBackgroundImage.png);
 }
 
 hr {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 hgroup {
-    text-align: center;
+  text-align: center;
 }
 
 nav 
 {
-    background-color: maroon;
-    line-height: 300%;
-    display: block;
+  background-color: maroon;
+  line-height: 300%;
+  display: block;
 }
+
+tr, th, td  
+{
+  padding: 4px;
+  border: gainsboro solid 2px;
+}
+
+table
+{
+  background-color: maroon;
+  border-collapse: separate;
+  border-spacing: 4px;
+  border: gainsboro solid 2px;
+}
+
 
 nav li 
 {
-    display: inline;
-    padding-right: 150px;
-    padding-left: 150px;
-    border: gainsboro solid;
-    list-style-type: none;
+  display: inline;
+  padding-right: 150px;
+  padding-left: 150px;
+  border: gainsboro solid;
+  list-style-type: none;
 }
 
 nav a:link
 {
-    color:gainsboro
+  color:gainsboro
 }
 
 nav a:visited
 {
-    color:gainsboro
+  color:gainsboro
 }
 
 div {
@@ -62,14 +77,14 @@ div {
 /* Float to the right on screens that are equal to or less than 768px wide */
 @media{
   .fl-right {
-    float: right;
+  float: right;
   }
 }
 
 /* Float to the right on screens that are equal to or greater than 769px wide */
 @media{
   .fl-left {
-    float: left;
+  float: left;
   }
 }
 
