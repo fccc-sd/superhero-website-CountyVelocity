@@ -48,6 +48,17 @@ table
   border: gainsboro solid 2px;
 }
 
+input,
+textarea,
+select,
+button
+{
+  font-family:Edo;
+  color: gainsboro;
+  background-color: maroon;
+  border-spacing: 4px;
+  border: gainsboro solid 2px;
+}
 
 nav li 
 {
