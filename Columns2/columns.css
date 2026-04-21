@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("columns.gif");
+    font-family:sans-serif;
+}
+
+h1
+{
+    text-align:center;
+    color:white;
+}
+
+#container
+{
+    max-width: 1024px;
+    max-height: 1024px;
+    width: 90%;
+    height: 90%;
+    padding: 25px;
+    margin: 0 auto;
+    background-color:aliceblue;
+}
+
+header
+{
+    height: 25%;
+    width: 95%;
+    padding: 2.5%;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+nav
+{
+    text-align:center;
+    width: 97.5%;
+    background-color:cornflowerblue;
+    margin-bottom: 1.25%;
+    padding: 1.25%;
+}
+
+li
+{
+    padding-right: 10%;
+    padding-left: 10%;
+    display: inline;
+    list-style-type: none;
+}
+
+a:link
+{
+    color:white
+}
+
+a:visited
+{
+    color:white
+}
+
+aside
+{
+    width: 36%;
+    height: 50%;
+    padding: 2%;
+    margin: 1% 1% 1% 0;
+    float: left;
+}
+
+section
+{
+    width: 52%;
+    padding: 2%;
+    margin: 1% 0 1% 1%;
+    float: right;
+}
+
+footer
+{
+    margin-top: 1.25%;
+    width: 95%;
+    background-color: brown;
+    padding: 10px;
+    clear: both;
+}
